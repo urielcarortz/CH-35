@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Vamos a crear 5 elementos  h1, titles, h2 titles, h3 titles, y div#dif-->
+
+    <h1 class="title1">Dom manipulacion </h1>
+    <h2 class="title2">JavaScript - 06</h2>
+    <h3 class="title3">El dom es una API para manipular el html</h3>
+    <h3 class="title4">Usa nodos para acceder, modificar, crear y eliminación</h3>
+
+    <div id="dif"></div>
+    <a href="./pages/App.html">--Vamos a  App.HTML --</a>
+    <hr>
+
+    <!--Button hiden-->
+    <button id="car-btn">Mostrar / Ocultar elementos</button>
+    
+
+  <!--Card profile-->
+  <div class="container" id="container-div">
+    <div class="main container">
+        <h2>Events</h2>
+        <!--form-->
+        <label for="name">Username</label>
+        <input type="text" name="name" id="name" placeholder="Escribe tu nombre se usuario">
+        <button id="btn-main">Actualizar perfil</button>
+    </div>
+    <div class="profile">
+    <h2 id="username"></h2>
+    <h3 id="age"></h3>
+    <p id="email"></p>
+    <ul id="fav-films"></ul>
+
+    </div>
+    <br> <br><br><br>
+  </div>
+
+
+    <script src="./src/index.js"></script>
+    <script src="./src/button.js"></script>
+    <script src="./src/card.js"></script>
+</body>
+</html>

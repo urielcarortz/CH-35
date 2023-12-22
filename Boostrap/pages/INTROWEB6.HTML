@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<!--Colocamos el componente Navbar que ya nos proporciona Bootstrap, el cual podemos encontrar en su documentacion ofcial-->
+<body>
+  <nav class="navbar navbar-expand-sm" id="NavPrincipal">
+    <div class="container">
+      <a class="navbar-brand">Intro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://www.corecode.school/blog/prepara-y-publica-tu-portfolio" target="_blank">Tarea</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://getbootstrap.com/docs/5.3/getting-started/download/"
+              target="_blank">Docs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+    <h1>Boostrap-Intro</h1>
+  <br>
+  <br>
+  <h2>Clases principales de mayor uso en boostrap </h2>
+  <p>A continuacion algunas clases iportantes para boostrap:</p>
+  <div class="container-fluid" id="InfoGeneral">
+    <div class="row">
+      <div class="col-sm " id="ClaseContenedor">
+        <h4>class="container"</h4>
+        <p>Ocupa las 12 columnas del grid que porporciona CSS, pero deja un margen a los costado</p>
+        <h4>class="container-fluid"</h4>
+        <p>Ocupa e tamaño completo del viewport</p>
+      </div>
+      <div class="col-sm" id="ClasRow">
+        <h4>Class="Row"</h4>
+        <p>Indica que el elemento contenedo se comprta como una fila dentro del Grid</p>
+      </div>
+      <div class="col-sm" id="ClassCol">
+        <h4>Class=col-n/xc</h4>
+        <p>Dos permiten establecer el nuemero de columnas que queremos que ocupe un elemento/componente  <br>Se puede delimitar tanto con numero como con nomenclaturas predefinidas<br>
+        Ejemplos: sm, nd, ig, xl, </p>     
+      </div>
+  </div>  
+</body>
+</html>

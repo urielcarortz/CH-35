@@ -1,0 +1,42 @@
+/* title-Crea tu cuenta */
+.cuenta{
+position: relative;
+width: 400px;
+height: 100px;
+left: 200px;
+top: 10px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+color: #1D1D1D;
+}
+
+/* google-button */
+.use{
+box-sizing: content-box;
+
+position: relative;
+width: 200px;
+height: 60px;
+left: 100px;
+top: 20px;
+
+border: 1px solid #1D1D1D;
+border-radius: 15px;
+text-align:  center;
+}
+/* Google-logo 1 */
+
+image{
+position: fixed;
+width: 60px;
+height: 35px;
+left: 120px;
+top: 90px;
+
+background:  src=Google.png;
+}
