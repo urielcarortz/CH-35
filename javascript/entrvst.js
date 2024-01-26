@@ -1,0 +1,2 @@
+function palabraMlarga(entrada, arry) {
+}

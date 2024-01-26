@@ -1,0 +1,10 @@
+package org.generation.employee;
+
+public class EmployeeMain {
+public static void Main(String[] args) {
+
+	
+	
+	}
+}
+

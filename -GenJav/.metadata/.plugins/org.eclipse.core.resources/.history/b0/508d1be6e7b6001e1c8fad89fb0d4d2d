@@ -1,0 +1,8 @@
+package orgGeneration.Collections;
+
+public class arrayListCollections {
+	public static void main(String[ ]args) {
+		
+	}
+
+}

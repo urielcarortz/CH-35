@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\diane\-Gen\.metadata\.plugins\org.eclipse.jdt.core
+198528132.index
+1438909713.index
+941516761.index
+4194743264.index
+419432249.index
+1865797976.index

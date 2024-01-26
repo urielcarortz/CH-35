@@ -1,0 +1,21 @@
+package controlFlujo;
+
+public class flujoControl {
+
+	public static void main(String[] args) {//Debe coincidir la clase con el nombre del document
+		// TODO Auto-generated method stub
+		
+		//Primero defino una variable de tipo string donde se guarda un dato
+		String viaje = null; //se inicializa la variable en null y despues, se le asigna la fecha y con esto reemplazarlo por fecha 
+		
+		
+		//Para validar si podemos viajar en determinada fecha
+		if (viaje != null) {
+			System.out.print("Sin fecha disponible");
+		} else {
+			System.out.print("Con fecha disponibles");
+		}
+
+	}//Main
+
+}//class
